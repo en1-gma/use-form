@@ -1,0 +1,42 @@
+# Security related
+.aws
+.npmrc
+
+# General
+.env-local
+.hidden
+*~
+*.sw[mnpcod]
+*.log
+*.tmp
+*.tmp.*
+log.txt
+
+# Generated files
+dist/
+
+# Exclude dist in style from gitignore
+!style/static/dist/
+
+# Editor related
+.history/
+.idea/
+*.code-workspace
+.sass-cache/
+.versions/
+*.sublime-project
+*.sublime-workspace
+
+# OS Files
+$RECYCLE.BIN/
+.DS_Store
+Thumbs.db
+UserInterfaceState.xcuserstate
+
+# Tooling specific
+storybook-static/
+node_modules/
+
+# Other
+mutagen.yml.lock
+www/

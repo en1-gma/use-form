@@ -1,0 +1,63 @@
+{
+  "name": "@en1-gma/use-form",
+  "private": false,
+  "version": "0.0.0",
+  "description": "Powerful React form hook",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "source": "index.js",
+  "publishConfig": {
+    "@en1-gma:registry": "https://npm.pkg.github.com"
+  },
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc && vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/en1-gma/use-form.git"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "form",
+    "validation"
+  ],
+  "author": "Vincenzo C.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/en1-gma/use-form/issues"
+  },
+  "homepage": "https://github.com/en1-gma/use-form#readme",
+  "peerDependencies": {
+    "lodash": "4.17.21",
+    "react": "16.8 - 17",
+    "react-dom": "16.8 - 17"
+  },
+  "devDependencies": {
+    "@babel/core": "7.15.8",
+    "@babel/preset-env": "7.15.8",
+    "@babel/preset-react": "7.14.5",
+    "@vitejs/plugin-react": "^4.0.1",
+    "babel-loader": "9.1.2",
+    "cross-env": "7.0.3",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "eslint-plugin-react": "7.32.2",
+    "eslint": "8.43.0",
+    "typescript": "5.1.5",
+    "vite-plugin-dts": "3.0.0-beta.3",
+    "vite": "4.3.9",
+    "webpack-cli": "4.10.0",
+    "webpack": "5.88.0"
+  }
+}
