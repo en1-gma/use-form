@@ -113,11 +113,15 @@ const useForm = (initialData = {}, configuration = INITIAL_CONFIGURATION) => {
     setIsValid(defaultIsValid);
   };
 
-  useEffect(async () => {
-    if (!isEmpty(yupSchema) && validationGuard(errors, data, )) {
-      checkSchema(yupSchema);
-    }
-    if (customCallback) customCallback(data, errors);
+  useEffect(() => {
+    const effectCheck = async () => {
+      if (!isEmpty(yupSchema) && validationGuard(errors, data, )) {
+        checkSchema(yupSchema);
+      }
+      if (customCallback) customCallback(data, errors);
+    };
+
+    effectCheck();
   }, [data]);
 
   return {

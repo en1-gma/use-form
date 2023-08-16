@@ -1,15 +1,11 @@
 {
   "name": "@en1-gma/use-form",
-  "private": false,
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "Powerful React form hook",
   "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "source": "index.js",
-  "publishConfig": {
-    "@en1-gma:registry": "https://npm.pkg.github.com"
-  },
   "files": [
     "dist"
   ],
