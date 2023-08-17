@@ -1,6 +1,6 @@
 {
   "name": "@en1-gma/use-form",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Powerful React form hook",
   "type": "module",
   "main": "dist/index.js",
