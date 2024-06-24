@@ -33,9 +33,7 @@
   },
   "homepage": "https://github.com/en1-gma/use-form#readme",
   "peerDependencies": {
-    "lodash": "4.17.21",
-    "react": "^16.8",
-    "react-dom": "^16.8"
+    "lodash": "4.17.21"
   },
   "devDependencies": {
     "@babel/core": "7.15.8",
